@@ -1,0 +1,179 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C2F1B2;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100vh;
+
+    font-family: "Poppins";
+}
+
+h1{
+    font-weight: 500;
+    margin: 0; 
+    margin-bottom: 15px;
+    text-shadow: -3px -1px 4px rgba(33, 143, 58, 0.22);
+
+}
+
+p{
+    color: #FFFF;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+    margin: 20px 0 30px;
+    text-align: center;
+
+}
+
+button {
+    position: relative;
+    border-radius: 20px;
+    border: 1px solid #218F3A;
+    background-color: #218F3A;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px;
+    padding: 12px 50px;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+button:hover{
+    letter-spacing: 3px;
+}
+
+button:active{
+    transform:scale(0.95);
+}
+
+.overlay-button{
+    background-color: #FFFFFF;
+    color: #5F5B5B;
+    border:1px solid #5F5B5B;
+}
+
+input{
+    border: none;
+    background-color: #E6F3E7;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px 0px;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+
+.image-background{
+    background: url("Image/sasha-kaunas-xEaAoizNFV8-unsplash.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* main container style  */
+.container{
+    background-color:#fff ;
+    border-radius: 25px;
+    position: relative;
+    width: 768px;
+    height: 600px;
+    overflow: hidden;
+    max-width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/**************** Login Page Style Starts ****************/
+
+.login-page{
+    position: absolute;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+    translate: 100%;
+}
+
+.signin-content{
+    background: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    height: 100%;
+    width: 50%;
+}
+
+
+
+.create-account{
+    position: relative;
+    top: -100%;
+    width: 50%;
+    left: 50%;
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+
+/**************** Login Page Style Ends ****************/
+
+/**************** Signup Page Style Starts ****************/
+.signup-page{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+
+.signin{
+    position: relative;
+    width: 50%;
+    height: 100%;
+
+}
+
+.signup-content {
+    background: #F4F4F4;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+
+    position: relative;
+    top: -100%;
+    left: 50%;
+
+    transition: all 0.5s ease-in-out;
+
+}
+
+/**************** Signup Page Style Ends ****************/
+
+h1.title{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+button.overlay{
+    background-color: #FFFFFF;
+    color: #5F5B5B;
+    border:1px solid #5F5B5B;
+}
+
+/* .hidden{
+    display: none;
+} */
